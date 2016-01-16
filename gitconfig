@@ -25,9 +25,10 @@
 [alias]
   ctags = !.git/hooks/ctags
 	co = checkout
+	sync = !zsh -ic git-sync
 
 [push]
-  default = current
+	default = upstream
 
 [web]
   browser = open
